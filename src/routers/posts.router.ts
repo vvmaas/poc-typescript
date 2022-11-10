@@ -1,11 +1,12 @@
 import { Router } from "express";
+import {post, getAll, update, deleteById, getByKeyword} from "../controllers/posts.controller.js"
 
 const postsRouter = Router();
 
-postsRouter.post("/posts", )
-postsRouter.get("/posts", )
-postsRouter.put("/posts/:id", )
-postsRouter.delete("/posts/:id", )
-postsRouter.get("/posts/:keyword", )
+postsRouter.post("/posts", post)
+postsRouter.get("/posts", getAll)
+postsRouter.put("/posts/:id", update)
+postsRouter.delete("/posts/:id", deleteById)
+postsRouter.get("/posts/:keyword", getByKeyword)
 
 export default postsRouter

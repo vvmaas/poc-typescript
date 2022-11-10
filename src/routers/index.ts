@@ -1,5 +1,5 @@
 import { Router } from "express";
-import postsRouter from "./posts.router";
+import postsRouter from "./posts.router.js";
 
 const router = Router();
 router.use(postsRouter)

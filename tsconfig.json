@@ -4,7 +4,7 @@
       "esModuleInterop": true,
       "module": "es6",
       "watch": true,
-      "moduleResolution": "node"
+      "moduleResolution": "Node"
     },
     "ts-node": {
       "esm": true
