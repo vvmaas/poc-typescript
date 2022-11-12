@@ -1,5 +1,5 @@
 import connection from "../database/db.js";
-import {QueryResult} from "pg"
+import { QueryResult } from "pg"
 import { PostEntity } from "../protocols/posts.protocols.js";
 
 async function postNote(text: string): Promise<QueryResult> {
